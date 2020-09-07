@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+.main-container {
+	margin: 20px;
+}
+
+.box1 {
+	display: flex;
+	width: 100%;
+}
+
+#logo {
+	height: 50px;
+	width: 50px;
+}
+
+#logo-name {
+	margin: 10px 0 0 15px;
+	color: #273c75;
+}
+
+
+.nav-list {
+    float: left;
+	list-style: none;
+    margin-top: 10px;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.nav-list li a:link,
+.nav-list li a:visited {
+    color: #273c75;
+    padding: 8px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+
+.nav-list li a:hover,
+.nav-list li a:active{
+    border-bottom: 2px solid #e67e22;    
+}
+
+.box2 {
+	display: flex;
+}
+
+.nav-list-1 {
+	list-style: none;
+	float: right;
+	margin-top: 10px;
+}
+
+.nav-list-1 li {
+	display: inline-block;
+	margin-left: 400px;
+}
+
+#work {
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.nav-list-1 li a:link,
+.nav-list-1 li a:visited {
+    color: #273c75;
+    padding: 8px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+
+.nav-list-1 li a:hover,
+.nav-list-1 li a:active{
+    border-bottom: 2px solid #e67e22;    
+}
+
+#btn1 {
+	background: #273c75;
+	padding: 5px 15px;
+	border: none;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 1px 0 #0eb2c1;
+	cursor: pointer;
+}
+
+#btn1:hover {
+	background: #e67e22;
+	color: #273c75;
+}
+
+.box3 {
+	display: flex;
+}
+
+h1 {
+	margin: 150px 20px 0px 60px;
+	padding-right: 100px;
+	font-size: 40px;
+}
+
+span {
+	margin: 150px 0px 0px 0px;
+	font-style: 35px;
+}
+
+#intro {
+	height: 500px;
+	float: right;
+	margin: 20px 20px 0 20px;
+	padding-left: 150px;
+}
+
+#para1 {
+	display: inline-block;
+	margin-top: 30px;
+	text-align: center;
+	color: #273c75;
+	margin-left: 42px; 
+}
+
+.btn2 {
+	margin-top: 65px;
+	margin-left: 50px;
+	padding: 15px;
+	font-size: 25px;
+	border-radius: 10px;
+
+}
+
+
+.sec1 {
+	margin-left: 150px;
+	background: #273c75;
+	border-color: #273c75;
+	color: #fff;
+}
+
+.sec1:hover,
+.sec1:active {
+	background: #fff;
+	color: #273c75;
+}
+
+.sec2 {
+	border-color: #273c75;
+	background: #fff;
+}
+
+.sec2:hover,
+.sec2:active {
+	background: #273c75;
+	color: #fff;
+}
