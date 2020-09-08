@@ -166,3 +166,23 @@ span {
 	background: #273c75;
 	color: #fff;
 }
+
+#content-head {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 150px;
+	padding-bottom: 20px;
+}
+
+hr {
+	width: 10%;
+	margin-left: 45%;
+	color: #e67e22;
+}
+
+#para2 {
+	text-align: center;
+	font-size: 25px;
+	margin: 20px 0;
+	color: #273c75;
+}
